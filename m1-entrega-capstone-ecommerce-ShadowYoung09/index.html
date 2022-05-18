@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ShadowStore</title>
+
+</head>
+<body>
+
+    <header>
+        <img src="./img/logo.png" alt="" id="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Todos</a></li>
+                <li><a href="#">Camisetas</a></li>
+                <li><a href="#">Jaquetas</a></li>
+                <li><a href="#">Calças</a></li>
+                <li><a href="#">Acessórios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="vitrine">
+            
+            <section class="card" id="0">
+                <div class="divFoto"><img src="./img/Camiseta.jpg" alt="Camiseta preta" class="fotoProdutos" id="camiseta"></div>
+                <p class="produtos">Camisetas</p>
+                <h2 class="nome">Camiseta Preta</h2>
+                <p class="descricao">Um clássico que combina com tudo, não importa seu estilo, uma camiseta preta sempre cai bem</p>
+                <p class="preco">R$ 29,90</p>
+                <button class="addCart">Adiciona ao Carrinho</button>
+            </section>
+
+            <section class="card" id="1">
+                <div class="divFoto"><img src="./img/Manga-Longa.jpg" alt="Camiseta de manga comprida" class="fotoProdutos" id="manga"></div>
+                <p class="produtos">Camisetas</p>
+                <h2 class="nome">Camisa Manga Comprida</h2>
+                <p class="descricao">Camiseta tradicional com mangas compridas, ótima pra usar quando está aquele tempinho mais gelado</p>
+                <p class="preco">R$ 49,99</p>
+                <button class="addCart">Adiciona ao Carrinho</button>
+            </section>
+
+            <section class="card" id="2">
+                <div class="divFoto"><img src="./img/Calça-Jogger-Cargo.jpg" alt="Calça jogger cargô" class="fotoProdutos" id="cargo"></div>
+                <p class="produtos">Calças</p>
+                <h2 class="nome">Calça Jogger Cargo</h2>
+                <p class="descricao">Aquela calça perfeita para os estilosos, tem vários bolsos, muito confortável e ótima para aquele rolê de skate</p>
+                <p class="preco">R$ 119,99</p>
+                <button class="addCart">Adiciona ao Carrinho</button>
+            </section>
+
+            <section class="card" id="3">
+                <div class="divFoto"><img src="./img/Calça-Jeans.jpg" alt="Calça jeans" class="fotoProdutos" id="jeans"></div>
+                <p class="produtos">Calças</p>
+                <h2 class="nome">Calça Jeans</h2>
+                <p class="descricao">Calça jeans clássica, é aquele tipo de peça que você usa em todos os lugares, do trabalho até a balada</p>
+                <p class="preco">R$ 99,90</p>
+                <button class="addCart">Adiciona ao Carrinho</button>
+            </section>
+
+            <section class="card" id="4">
+                <div class="divFoto"><img src="./img/Jaqueta-Preta.jpg" alt="Jaqueta preta" class="fotoProdutos" id="jackP"></div>
+                <p class="produtos">Jaquetas</p>
+                <h2 class="nome">Jaqueta Preta</h2>
+                <p class="descricao">A favorita dos rockeiros, é perfeita para aquele rolê Underground ou aquele show da sua banda favorita</p>
+                <p class="preco">R$ 149,99</p>
+                <button class="addCart">Adiciona ao Carrinho</button>
+            </section>
+
+            <section class="card" id="7">
+                <div class="divFoto"><img src="./img/Quartzo-Rosa.jpg" alt="Colar de quartzo-rosa" class="fotoProdutos" id="colar"></div>
+                <p class="produtos">Acessórios</p>
+                <h2 class="nome">Colar de Quartzo-Rosa</h2>
+                <p class="descricao">Esse é para os místicos, o quartzo-rosa é uma pedra linda e é conhecido como a pedra do amor</p>
+                <p class="preco">R$ 21,99</p>
+                <button class="addCart">Adiciona ao Carrinho</button>
+            </section>
+
+        </section>
+                
+        <section class="buscaECar">
+            
+            <div id="pesquisa">
+                <input type="text" id="caixa" placeholder="Digite aqui sua pesquisa"/>
+                <button id="botaoPesquisa">Pesquisar</button>
+            </div>
+
+            <section class="carrinho">
+                <h2 id="carrinhoDeCompras">Carrinho de compras</h2>
+                <section id="interCar">
+                    <div class="divCar">
+                        <div class="divFotoCar"><img src="./img/Camiseta.jpg" alt="Camiseta preta" class="fotoCar" id="camisetaCar"></div>
+                        <h3 class="prodCar">Camiseta Preta</h3>
+                        <p class="precoCar">R$ 29,90</p>
+                        <button class="removeCar">Remover do carrinho</button>
+                    </div>
+                    <div class="divCar">
+                        <div class="divFotoCar"><img src="./img/Calça-Jogger-Cargo.jpg" alt="Calça jogger cargô" class="fotoCar" id="cargoCar"></div>
+                        <h3 class="prodCar">Camiseta Preta</h3>
+                        <p class="precoCar">R$ 29,90</p>
+                        <button class="removeCar">Remover do carrinho</button>
+                    </div>
+                    <div class="divCar">
+                        <div class="divFotoCar"><img src="./img/Quartzo-Rosa.jpg" alt="Colar de quartzo-rosa" class="fotoCar" id="colarCar"></div>
+                        <h3 class="prodCar">Camiseta Preta</h3>
+                        <p class="precoCar">R$ 29,90</p>
+                        <button class="removeCar">Remover do carrinho</button>
+                    </div>
+                </section>
+                <section id="finalCar">
+                    <div class="divFin"><p class="textFin">Quantidade de Itens:</p><p class="textFin" id="quantItens">3</p></div>
+                    <div class="divFin"><p class="textFin">Preço:</p><p class="textFin" id="valorFinal">R$ 194,79</p></div>
+                </section>
+
+            </section>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
